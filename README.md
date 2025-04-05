@@ -14,8 +14,9 @@ Este repositório contém a solução para um conjunto de desafios técnicos env
 - Download automático dos anexos I e II (PDF)
 - Compactação dos dois arquivos em `.zip`
 
-📄 Código: `web_scraping/download_rol_ans.py`  
-📦 Resultado: `anexos.zip`
+📄 Código: `teste1_WebScraping.py`  
+📦 Resultado: `anexos_compactados.zip`
+📦 Resultado: `/downloads`
 
 ---
 
@@ -26,8 +27,8 @@ Este repositório contém a solução para um conjunto de desafios técnicos env
 - Substituição de abreviações ("OD", "AMB", etc.) por descrições completas
 - Compactação em `Teste_CaioMontenegro.zip`
 
-📄 Código: `transformacao/extrair_rol_para_csv.py`  
-📄 Arquivo gerado: `rol_convertido.csv`
+📄 Código: `teste2_TranformacaoDados.py`  
+📄 Arquivo gerado: `rol_procedimentos.csv`
 
 ---
 
@@ -41,7 +42,7 @@ Este repositório contém a solução para um conjunto de desafios técnicos env
   - Top 10 operadoras com maiores despesas em eventos médicos hospitalares no último trimestre
   - Top 10 no último ano
 
-📂 Pasta: `scripts_sql/`  
+📂 Pasta: `scripts/`  
 📄 Arquivos:  
 - `create_table.sql`  
 - `import_data.py`  
