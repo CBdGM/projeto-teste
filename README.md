@@ -73,7 +73,7 @@ Este repositório contém a solução para um conjunto de desafios técnicos env
 
 Coleção com requisição à API para testes e demonstrações.
 
-📁 Arquivo: `api-operadoras-ans.postman_collection.json`
+📁 Arquivo: `api-teste.postman_collection.json`
 
 ---
 
@@ -91,8 +91,8 @@ Coleção com requisição à API para testes e demonstrações.
 
 ### 🔧 Clonar o repositório
 
-git clone https://github.com/seu-usuario/nivelamento-api-front.git
-cd nivelamento-api-front
+git clone https://github.com/seu-usuario/projeto-teste.git
+cd projeto-teste
 
 ### 🐍 Rodar o Backend (Flask + Python)
 
