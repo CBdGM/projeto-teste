@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "7cb2ee5e-6bb6-49b9-b140-cd9de2a456e1",
+		"name": "Teste Nivelamento",
+		"description": "Exemplos da mesma rota Get",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "43786074",
+		"_collection_link": "https://orange-meadow-881769.postman.co/workspace/New-Team-Workspace~5c164f43-18fe-4072-8bcf-9e8084e40b05/collection/43786074-7cb2ee5e-6bb6-49b9-b140-cd9de2a456e1?action=share&source=collection_link&creator=43786074"
+	},
+	"item": [
+		{
+			"name": "Get Falhando Por causa do Valor",
+			"request": {
+				"auth": {
+					"type": "inherit",
+					"inherit": {}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/busca?q=asddaasda",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"busca"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "asddaasda"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Retornando Todos que Contem o valor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/busca?q=unimed",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"busca"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "unimed"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Retornando com o Nome especifico",
+			"request": {
+				"auth": {
+					"type": "inherit",
+					"inherit": {}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/busca?q=unimed cerrado",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"busca"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "unimed cerrado"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
