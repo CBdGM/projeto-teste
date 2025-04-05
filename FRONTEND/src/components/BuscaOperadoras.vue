@@ -30,7 +30,8 @@ const resultados = ref([])
 
 const buscar = async () => {
   try {
-    const res = await axios.get(`http://127.0.0.1:5000/busca?q=${termo.value}`)
+    const baseURL = import.meta.env.VITE_API_URL
+    const res = await axios.get(`${baseURL}/busca?q=${termo.value}`)
     // Se o backend retornar JSON já parseado, atribuímos diretamente:
     resultados.value = res.data
   } catch (err) {

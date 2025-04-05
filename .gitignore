@@ -1,0 +1,68 @@
+# ========================
+# BACKEND - Python / Flask
+# ========================
+
+# Ambientes virtuais
+venv/
+.env
+
+# Arquivos de cache e compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Banco de dados local
+*.sqlite3
+*.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Jupyter/IPython (caso use)
+.ipynb_checkpoints/
+
+# ========================
+# FRONTEND - Node.js / Vue.js
+# ========================
+
+# Dependências
+node_modules/
+
+# Build
+dist/
+*.local
+
+# Configs de ambiente
+.env.local
+.env.*.local
+
+# Logs de execução
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================
+# GERAL - IDEs e SO
+# ========================
+
+# VSCode, JetBrains, etc.
+.vscode/
+.idea/
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+
+# ========================
+# OUTROS - Compactados e downloads
+# ========================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+downloads/

@@ -2,9 +2,15 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import numpy as np
 import pandas as pd
+from dotenv import load_dotenv
+import os
 
 app = Flask(__name__)
 CORS(app)  
+
+load_dotenv()
+
+db_url = os.getenv("DATABASE_URL")
 
 # Carrega os dados no início
 df = pd.read_csv("dados/Relatorio_cadop.csv", sep=";", encoding="latin1")
